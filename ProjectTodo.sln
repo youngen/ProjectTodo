@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{67EC4639-409
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "commandLineInterface", "src\CommandLineInterface\commandLineInterface.fsproj", "{2260BEF8-8CDF-4821-9C5A-C94F8060F464}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Domain", "src\Domain\Domain.fsproj", "{3C8C8887-EF37-42B8-967C-D006BF7EFDCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +34,21 @@ Global
 		{2260BEF8-8CDF-4821-9C5A-C94F8060F464}.Release|x64.Build.0 = Release|Any CPU
 		{2260BEF8-8CDF-4821-9C5A-C94F8060F464}.Release|x86.ActiveCfg = Release|Any CPU
 		{2260BEF8-8CDF-4821-9C5A-C94F8060F464}.Release|x86.Build.0 = Release|Any CPU
+		{3C8C8887-EF37-42B8-967C-D006BF7EFDCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C8C8887-EF37-42B8-967C-D006BF7EFDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C8C8887-EF37-42B8-967C-D006BF7EFDCE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3C8C8887-EF37-42B8-967C-D006BF7EFDCE}.Debug|x64.Build.0 = Debug|Any CPU
+		{3C8C8887-EF37-42B8-967C-D006BF7EFDCE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3C8C8887-EF37-42B8-967C-D006BF7EFDCE}.Debug|x86.Build.0 = Debug|Any CPU
+		{3C8C8887-EF37-42B8-967C-D006BF7EFDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C8C8887-EF37-42B8-967C-D006BF7EFDCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C8C8887-EF37-42B8-967C-D006BF7EFDCE}.Release|x64.ActiveCfg = Release|Any CPU
+		{3C8C8887-EF37-42B8-967C-D006BF7EFDCE}.Release|x64.Build.0 = Release|Any CPU
+		{3C8C8887-EF37-42B8-967C-D006BF7EFDCE}.Release|x86.ActiveCfg = Release|Any CPU
+		{3C8C8887-EF37-42B8-967C-D006BF7EFDCE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2260BEF8-8CDF-4821-9C5A-C94F8060F464} = {67EC4639-409A-4D82-AA3A-E8F68965391D}
+		{3C8C8887-EF37-42B8-967C-D006BF7EFDCE} = {67EC4639-409A-4D82-AA3A-E8F68965391D}
 	EndGlobalSection
 EndGlobal

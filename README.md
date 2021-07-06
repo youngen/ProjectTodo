@@ -1,6 +1,6 @@
 # ProjectTodo
 
-This is my first real pet projet. An over enginered todo list with an API, DocumentDB with Event Sourcing, CLI and Web Interface.
+A pet project of mine. An over enginered todo list with an API, DocumentDB with Event Sourcing, CLI and Web Interface.
 
 ## Goals
 

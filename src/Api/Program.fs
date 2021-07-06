@@ -1,4 +1,4 @@
-module src.App
+module Api
 
 open System
 open System.IO
@@ -61,6 +61,7 @@ let webApp =
         GET >=>
             choose [
                 route "/" >=> indexHandler "world"
+                route "/ping" >=> text "pong"
                 routef "/hello/%s" indexHandler
             ]
         setStatusCode 404 >=> text "Not Found" ]

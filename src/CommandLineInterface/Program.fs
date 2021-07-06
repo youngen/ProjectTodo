@@ -1,5 +1,5 @@
 // Learn more about F# at http://docs.microsoft.com/dotnet/fsharp
-
+module CommandLineInterface
 open System
 
 // Define a function to construct a message to print

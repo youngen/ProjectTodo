@@ -21,6 +21,9 @@ A pet project of mine. An over enginered todo list with an API, DocumentDB with 
 
 ## API
 
+### Testing with httpie
+https GET https://localhost:5001/ping --verify=no
+
 ## DocumentDB
 
 ## CLI
